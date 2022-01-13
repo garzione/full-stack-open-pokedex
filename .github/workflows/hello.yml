@@ -14,8 +14,8 @@ jobs:
           echo "Hello World!"
       - name: Show date
         run: |
-          -d
+          echo $(-d)
       - name: Show directory
         run: |
-          ls
+          echo $(ls)
 
